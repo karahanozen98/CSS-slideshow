@@ -44,7 +44,7 @@ const myInterval = setInterval(() => {
 }, 3000);
 
 function handleClick(id) {
-  clearInterval(myInterval);
   currIndex = parseInt(id);
   change();
+  
 }
